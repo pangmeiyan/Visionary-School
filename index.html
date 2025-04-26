@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visonary School</title>
+    <!-- logo -->
+    <link rel="shortcut icon" href="img/loogo.png" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.0/dist/flickity.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+      <!--=============== navbar ===============-->
+      <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="index.html" class="nav__logo">
+                Visionary School
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="fas fa-bars nav__burger"></i>
+                 <i class="fas fa-times nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="index.html" class="nav__link active">Beranda</a></li>
+
+                 <li><a href="visi.html" class="nav__link">Profil</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Program<i class="fas fa-angle-down dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                        <a href="ekstra.html" class="dropdown__link">
+                           <i class="ri-user-line"></i> Ekstrakurikuler
+                        </a>                          
+                        </li>
+
+                        <li>
+                        <a href="hsk.html" class="dropdown__link">
+                           <i class="ri-lock-line"></i> HSK
+                        </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                 <!--=============== DROPDOWN 3 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Program Keahlian <i class="fas fa-angle-down dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="pplg.html" class="dropdown__link">
+                             <i class="ri-user-line"></i> PPLG
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="tjkt.html" class="dropdown__link">
+                             <i class="ri-lock-line"></i> TJKT
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="dkv.html" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> DKV
+                          </a>
+                       </li>
+                    </ul>
+                 
+                    <li><a href="berita1.html" class="nav__link">Berita</a></li>
+
+                    <li>
+                     <div class="search-input">
+                          <input type="text" placeholder="search something"/>
+                          <i class="fa fa-search"></i>
+                      </div>
+                    </li>
+
+                
+              </ul>
+           </div>
+        </nav>
+      </header>
+
+      <!--=============== hero ===============-->
+      <section class="hero" id="">
+         <div class="container1">
+            <div class="wrapper1">
+               <p class="opening">Selamat Datang di Visionary School</p>
+               <h1 class="text-animation">Belajar Hari Ini,<br> Menjadi Pemimpin <span></span></h1>
+               <p class="deskripsi">Sekolah Inspirasi, sekolah modern dengan tiga bahasa (Indonesia, Inggris, Mandarin) yang mencetak generasi unggul di bidang Teknologi, dan Bisnis</p>
+               <div class="btn-hero-con">
+                  <button class="btn-rawr">DAFTAR SEKARANG
+                     <i class="fas fa-arrow-down"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--=============== about ===============-->
+      <section class="about" id="#about">
+         <div class="container2">
+            <div class="wrapper2">
+               <!-- box about 1 faqs -->
+               <div class="box-about1 faqs">
+                  <div class="wrapperrrr">
+                     <button class="toggle">
+                        <h3>Apa saja program keahlian yang tersedia?</h3>
+                        <i class="fas fa-angle-down icon"></i>
+                     </button>
+                     <div class="content">
+                        <p>Kami menawarkan berbagai program keahlian, seperti Pengembangan Perangkat Lunak (PPLG), Teknik Komputer dan Jaringan (TKJ), Desain Komunikasi Visual (DKV), Bisnis Digital, dan Pariwisata.</p>
+                     </div>
+                  </div>
+               
+                  <div class="wrapperrrr">
+                     <button class="toggle">
+                        <h3>Bagaimana sistem pembelajaran di sekolah ini?</h3>
+                        <i class="fas fa-angle-down icon"></i>
+                     </button>
+                     <div class="content">
+                        <p>Kami menerapkan metode pembelajaran berbasis proyek (Project-Based Learning) dan praktik industri untuk memastikan siswa mendapatkan pengalaman langsung sesuai dengan bidang keahliannya.</p>
+                     </div>
+                  </div>
+
+                  <div class="wrapperrrr">
+                     <button class="toggle">
+                        <h3>Apakah sekolah ini menyediakan program magang?</h3>
+                        <i class="fas fa-angle-down icon"></i>
+                     </button>
+                     <div class="content">
+                        <p>Ya, kami bekerja sama dengan berbagai perusahaan dan industri untuk menyediakan program magang bagi siswa guna meningkatkan keterampilan dan pengalaman kerja mereka.</p>
+                     </div>
+                  </div>
+
+                  <div class="wrapperrrr">
+                     <button class="toggle">
+                        <h3>Bagaimana cara mendaftar di sekolah ini?</h3>
+                        <i class="fas fa-angle-down icon"></i>
+                     </button>
+                     <div class="content">
+                        <p>Calon siswa dapat mendaftar melalui website kami dengan mengisi formulir pendaftaran online atau datang langsung ke sekolah untuk mendapatkan informasi lebih lanjut.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- end of box1 -->
+
+                <!-- box about 2 about -->
+               <div class="box-about2 abt">
+                  <div class="box2-wrap">
+                     <small>about us</small>
+                     <h1>Mengapa Kami Menjadi Sekolah Terbaik?</h1>
+                     <p>Kami menyediakan pendidikan berkualitas dengan kurikulum inovatif dan tenaga pengajar profesional untuk mendukung prestasi siswa.</p>
+                     <div class="btn-hero-con">
+                        <button class="btn-rawr">
+                           <a href="visi.html" style="color: #7a69d9;">Lebih Lanjut</a>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <!-- end of box2 -->
+            </div>
+         </div>
+      </section>
+
+      <!--=============== jurusan ===============-->
+      <section class="jurusan" id="jurusan">
+        <div class="container3">
+            <div class="wrapper3">
+               <div class="box">
+                  <div class="iconic">
+                     <img src="img/icon (1).png">
+                  </div>
+                  <div class="card">
+                     <h3>PPLG</h3>
+                     <p>Program Pengembangan Perangkat Lunak dan Gim membekali siswa dengan coding, pengembangan aplikasi, serta pembuatan game interaktif inovatif.</p>
+                     <div class="btn-hero-con">
+                        <button class="btn-rawr">
+                           <a href="pplg.html" style="color: #7a69d9;">Lebih Lanjut</a>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="iconic">
+                     <img src="img/icon (3).png">
+                  </div>
+                  <div class="card">
+                     <h3>TJKT</h3>
+                     <p>Teknik Jaringan Komputer dan Telekomunikasi mengajarkan siswa jaringan komputer, keamanan siber, serta infrastruktur telekomunikasi canggih industri modern.</p>
+                     <div class="btn-hero-con">
+                        <button class="btn-rawr">
+                           <a href="tjkt.html" style="color: #7a69d9;">Lebih Lanjut</a>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="iconic">
+                     <img src="img/icon (2).png">
+                  </div>
+                  <div class="card">
+                     <h3>DKV</h3>
+                     <p>Desain Komunikasi Visual mengasah kreativitas siswa dalam desain grafis, animasi digital, ilustrasi, fotografi, serta strategi branding visual inovatif.</p>
+                     <div class="btn-hero-con">
+                        <button class="btn-rawr">
+                           <a href="dkv.html" style="color: #7a69d9;">Lebih Lanjut</a>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+      </section>
+
+      <!--=============== fasilitas ===============-->
+      <section class="fasilitas">
+         <div class="container4">
+            <div class="wrapper4">
+               <h2>Fasilitas Sekolah</h2>
+               <div class="grid-container">
+                     <div class="grid-item">
+                        <img src="img/foto1.png" alt="Ruang Kelas Modern">
+                        <div class="caption">Ruang Kelas Modern</div>
+                     </div>
+                     <div class="grid-item">
+                        <img src="img/foto2.png" alt="Lab Komputer">
+                        <div class="caption">Lab Komputer</div>
+                     </div>
+                     <div class="grid-item">
+                        <img src="img/foto3.png" alt="Perpustakaan">
+                        <div class="caption">Perpustakaan</div>
+                     </div>
+                     <div class="grid-item">
+                        <img src="img/foto4.png" alt="Lapangan Olahraga">
+                        <div class="caption">Lapangan Olahraga</div>
+                     </div>
+                     <div class="grid-item">
+                        <img src="img/foto5.png" alt="Studio DKV">
+                        <div class="caption">Studio DKV</div>
+                     </div>
+                     <div class="grid-item">
+                        <img src="img/foto6.png" alt="Kantin">
+                        <div class="caption">Kantin</div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--=============== pengajar ===============-->
+      <section class="pengajar" id="pengajar">
+         <div class="container8">
+            <h1>Tim Pengajar</h1>
+            <div class="wrapper8">
+               <div class="pengajar-con">
+                  <div class="pengajar-mem">
+                     <div class="main-contentt">
+                        <img src="img/guru (1).png">   
+                        <span class="kategori">Instruktur PPLG</span>
+                        <h4>Jordan Martin</h4>
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="pengajar-con">
+                  <div class="pengajar-mem">
+                     <div class="main-contentt">
+                        <img src="img/guru (2).jpg">
+                        <span class="kategori">Mandarin Teacher</span>
+                        <h4>Pang Meilin</h4>
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="pengajar-con">
+                  <div class="pengajar-mem">
+                     <div class="main-contentt">
+                        <img src="img/guru (3).png">
+                        <span class="kategori">English Teacher</span>
+                        <h4>Taylor Swift</h4>
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="pengajar-con">
+                  <div class="pengajar-mem">
+                     <div class="main-contentt">
+                        <img src="img/guru (4).png">
+                        <span class="kategori">Instruktur DKV</span>
+                        <h4>Olivia Rodrigo</h4>
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="btn btnnnn" style="justify-content: center; display: flex;  padding: 25px;">
+               <a href="visi.html">
+                  <button class="btnnn">Read More</button>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <!--=============== berita / kegiatan ===============-->
+      <section class="berita" id="berita">
+         <div class="container5">
+            <h1>Berita & Kegiatan</h1>
+            <div class="wrapper5">
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/Desain tanpa judul (1).png" alt=""></a>
+                     <span class="date">17 April 2024</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">Lapangan Sekolah</span>
+                     <h4>Upacara Bendera: Menanamkan Nilai Disiplin dan Kebangsaan</h4>
+                     <p> Siswa dan guru mengikuti upacara bendera dengan khidmat. Kegiatan ini bertujuan menanamkan disiplin serta rasa cinta tanah air...</p>
+                     <div class="btn-hero-con">
+                        <a href="berita-detail.html">
+                           <button class="btn-rawr">Read More</button>
+                        </a>
+                     </div>
+                   </div>
+               </div>
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/course-01.jpg" alt=""></a>
+                     <span class="date">9 November 2024</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">Aula Sekolah</span>
+                     <h4>Seminar Digital Marketing untuk Generasi Muda</h4>
+                     <p>Para siswa mendapatkan wawasan tentang dunia digital marketing dari pakar industri. Mereka belajar strategi promosi dan analisis pasar...
+                     </p>
+                     <div class="btn-hero-con">
+                        <a href="berita-detail.html">
+                           <button class="btn-rawr">Read More</button>
+                        </a>
+                     </div>
+                   </div>
+               </div>
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/course-02.jpg" alt=""></a>
+                     <span class="date">27 Januari 2025</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">Laboratorium Komputer</span>
+                     <h4>Workshop Coding: Membuat Aplikasi Android dari Nol</h4>
+                     <p>Siswa jurusan PPLG mengikuti pelatihan coding intensif. Mereka diajarkan cara membangun aplikasi Android dengan framework modern...</p>
+                     <div class="btn-hero-con">
+                        <a href="berita-detail.html">
+                           <button class="btn-rawr">Read More</button>
+                        </a>
+                     </div>
+                   </div>
+               </div>
+               
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/kursus (1).png" alt=""></a>
+                     <span class="date">14 Februari 2025</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">SMK Negeri 1 Kuta Selatan</span>
+                     <h4>Tim PPLG Raih Juara 1 Lomba Hackathon Nasional</h4>
+                     <p> Tim siswa jurusan PPLG berhasil meraih juara 1 dalam kompetisi hackathon nasional. Mereka menciptakan aplikasi inovatif yang mendapat apresiasi...
+                        <div class="btn-hero-con">
+                           <a href="berita-detail.html">
+                              <button class="btn-rawr">Read More</button>
+                           </a>
+                        </div>
+                     </p>
+                   </div>
+               </div>
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/kursus (2).png" alt=""></a>
+                     <span class="date">1 Maret 2025</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">Politeknik Negeri Bali</span>
+                     <h4> Siswa DKV Sabet Penghargaan di Lomba Desain Grafis Nasional</h4>
+                     <p>Salah satu siswa DKV berhasil memenangkan juara 2 lomba desain poster tingkat nasional. Karyanya dipuji karena konsep unik dan eksekusi kreatif...
+                     </p>
+                     <div class="btn-hero-con">
+                        <a href="berita-detail.html">
+                           <button class="btn-rawr">Read More</button>
+                        </a>
+                     </div>   
+                   </div>
+               </div>
+               <div class="berita-box">
+                  <div class="thumb">
+                     <a href="#"><img src="img/kursus (3).png" alt=""></a>
+                     <span class="date">29 Maret 2025</span>
+                   </div>
+                   <div class="down-content">
+                     <span class="author">Kampus Udayana</span>
+                     <h4>Siswa TJKT Kembangkan Sistem Keamanan Jaringan</h4>
+                     <p> Siswa jurusan TJKT menciptakan sistem keamanan jaringan yang inovatif. Karya mereka berhasil masuk sebagai finalis di ajang teknologi tingkat provinsi...</p>
+                     <div class="btn-hero-con">
+                        <a href="berita-detail.html">
+                           <button class="btn-rawr">Read More</button>
+                        </a>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <div class="btn btnnnn" style="justify-content: center; display: flex;">
+               <a href="berita1.html">
+                  <button class="btnnn">Read More</button>
+               </a>
+            </div>
+
+         </div>
+      </section>
+
+      <!--=============== galeri ===============-->
+      <section class="galeri">
+         <div class="container10">
+            <h1>Galeri Kami</h1>
+            <div class="wrapper10">
+               <div class="gallery-item">
+                  <img src="https://smktibg-jimbaran.sch.id/wp-content/uploads/2019/05/Wisuda-Purna-Siswa-Kedua-SMK-TI-Bali-Global-Jimbaran.jpg" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2022</p>
+                    <h3>Kegiatan Ekstrakurikuler</h3>
+                  </div>
+               </div>
+               <div class="gallery-item">
+                  <img src="https://wisatasekolah.com/wp-content/uploads/2019/05/cara-membuat-kelas-yang-menarik.jpg" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2025</p>
+                    <h3>Kegiatan Belajar di Kelas</h3>
+                  </div>
+               </div>
+               <div class="gallery-item">
+                  <img src="https://cdn1-production-images-kly.akamaized.net/ewXiNUCbUU7wADZ3AcMbpupvPHE=/800x400/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4442413/original/006267300_1685089099-22.jpg" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2025</p>
+                    <h3> Event Sekolah</h3>
+                  </div>
+               </div>
+               <div class="gallery-item">
+                  <img src="img/foto1.png" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2025</p>
+                    <h3>Fasilitas Sekolah</h3>
+                  </div>
+               </div>
+               <div class="gallery-item">
+                  <img src="https://smktibg-jimbaran.sch.id/wp-content/uploads/2019/05/Wisuda-Purna-Siswa-Kedua-SMK-TI-Bali-Global-Jimbaran.jpg" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2025</p>
+                    <h3>Wisuda Kelulusan</h3>
+                  </div>
+               </div>
+               <div class="gallery-item">
+                  <img src="https://img.antaranews.com/cache/800x533/2019/07/11/wework.jpeg" alt="Ekstrakurikuler Basket">
+                  <div class="gallery-caption">
+                    <p class="gallery-date">Mar 2 - Mar 3 2025</p>
+                    <h3>Suasana Sekolah Sehari-hari</h3>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!--=============== testi ===============-->
+      <section class="testimonials-section">
+         <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "prevNextButtons": false, "autoPlay": true }'>
+             <div class="carousel-cell">
+                 <p>“Belajar di sini mengubah hidupku! Ilmu, pengalaman, dan bimbingan dari para pengajar sangat membantu aku meraih karier impian.”</p>
+                 <img src="img/pfp (1).png" alt="User">
+                 <h4>Alya Putri</h4>
+                 <span>Full Stack Developer</span>
+             </div>
+             <div class="carousel-cell">
+                 <p>“Sekolah ini memberikan pengalaman luar biasa! Dari teori hingga praktik, semuanya mendukung aku menjadi profesional di bidang teknologi.”</p>
+                 <img src="img/pfp (2).png" alt="User">
+                 <h4>Jaden Putra</h4>
+                 <span>UI/UX Designer</span>
+             </div>
+             <div class="carousel-cell">
+                 <p>“Aku bangga jadi alumni! Kurikulumnya relevan, fasilitasnya lengkap, dan para mentor selalu siap membimbing menuju kesuksesan karier.”</p>
+                 <img src="img/pfp (3).png" alt="User">
+                 <h4>Dewi Ananda</h4>
+                 <span>Project Manager</span>
+             </div>
+         </div>
+         <div class="testimonials-content">
+            <small>TESTIMONIALS</small>
+            <h1>Apa Kata Alumni?</h1>
+            <p>Dengarkan langsung kisah sukses alumni kami! Mereka telah mencapai impian dan karier cemerlang berkat pendidikan di sini.</p>
+        </div>
+      </section>
+      
+       <!--=============== cta ===============-->
+       <section class="cta" id="cta">
+         <div class="container9">
+            <div class="wrapper9">
+               <div class="box-cta1">
+                  <h1>Start Your Brighter Future with Us!</h1>
+                  <p>Join a top-standard school with a joyful and inclusive learning environment.</p>        
+                     <button class="btn-rawrr">Daftar Sekarang
+                     </button>
+               </div>
+               <div class="box-cta2">
+                  <img src="img/model (2).png">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--=============== footer ===============-->
+      <footer class="footer">
+         <div class="container7">
+             <div class="footer-content">
+                 <div class="footer-box">
+                     <h3>Informasi</h3>
+                     <ul>
+                        <li>Jalan Raya Kuta No. 1 Badung</li>
+                        <li>80361 BALI - INDONESIA</li>
+                        <li>+62 361 - 752554, 752776</li>
+                        <li>info@Visionaryschool.com</li>
+                     </ul>
+                 </div>
+                 <div class="footer-box">
+                     <h3>Halaman Utama</h3>
+                     <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="visi.html"">Profil</a></li>
+                        <li><a href="ekstra.html">Program</a></li>
+                        <li><a href="pplg.html">Program Keahlian</a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-box">
+                  <h3>Tautan Cepat</h3>
+                  <ul>
+                    <li><a href="#">Daftar Siswa</a></li>
+                    <li><a href="#">Prestasi</a></li>
+                    <li><a href="#">Galeri</a></li>
+                    <li><a href="#">Kontak Kami</a></li>
+                  </ul>
+                </div>
+                 <div class="footer-box">
+                  <h3>Social Media</h3>
+                     <ul>
+                        <div class="social-icons">
+                           <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                           <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                           <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                           <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                         </div>
+                     </ul>
+                 </div>
+             </div>
+             <div class="footer-bottom">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.6593517914293!2d115.17532427417773!3d-8.723860491325777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246c36e20fd5b%3A0xd9038f91dd8aa0fc!2sWihara%20Dharmayana!5e0!3m2!1sid!2sid!4v1744252145798!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             <div class="footer-bottom">
+                 <p>Copyright &copy; 2024 <strong>Visionary School</strong>. All rights reserved. Present by <strong>MeiYan</strong></p>
+             </div>
+         </div>
+      </footer>
+
+      <!--=============== sticky icon wa ===============-->
+      <div class="wa-help">
+         <div class="wa-text">
+           <p>Butuh Bantuan?<br><strong>Hubungi Kami</strong></p>
+         </div>
+         <a href="https://wa.me/6281234567890" target="_blank" class="wa-icon">
+           <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+         </a>
+      </div>
+
+      
+   <script src="https://unpkg.com/flickity@2.2.0/dist/flickity.pkgd.min.js"></script>
+   <script src="script.js"></script>
+  </body>
+</html>

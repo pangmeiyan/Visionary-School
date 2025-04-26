@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visonary School</title>
+    <!-- logo -->
+    <link rel="shortcut icon" href="img/loogo.png" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="ekstra.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+      <!--=============== navbar ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                 Visionary School
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="fas fa-bars nav__burger"></i>
+                  <i class="fas fa-times nav__close"></i>
+               </div>
+            </div>
+ 
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="index.html" class="nav__link">Beranda</a></li>
+
+                  <li><a href="visi.html" class="nav__link">Profil</a></li>
+                  
+                   <!--=============== DROPDOWN 2 ===============-->
+                   <li class="dropdown__item">
+                      <div class="nav__link">
+                         Program<i class="fas fa-angle-down dropdown__arrow"></i>
+                      </div>
+ 
+                      <ul class="dropdown__menu">
+                         <li>
+                         <a href="ekstra.html" class="dropdown__link">
+                            <i class="ri-user-line"></i> Ekstrakurikuler
+                         </a>                          
+                         </li>
+ 
+                         <li>
+                         <a href="hsk.html" class="dropdown__link">
+                            <i class="ri-lock-line"></i> HSK
+                         </a>
+                         </li>
+                      </ul>
+                   </li>
+ 
+                  <!--=============== DROPDOWN 3 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Program Keahlian <i class="fas fa-angle-down dropdown__arrow"></i>
+                     </div>
+ 
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="pplg.html" class="dropdown__link">
+                              <i class="ri-user-line"></i> PPLG
+                           </a>                          
+                        </li>
+ 
+                        <li>
+                           <a href="tjkt.html" class="dropdown__link">
+                              <i class="ri-lock-line"></i> TJKT
+                           </a>
+                        </li>
+ 
+                        <li>
+                           <a href="dkv.html" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> DKV
+                           </a>
+                        </li>
+                     </ul>
+                  
+                     <li><a href="berita1.html" class="nav__link">Berita</a></li>
+
+                     <li>
+                      <div class="search-input">
+                           <input type="text" placeholder="search something"/>
+                           <i class="fa fa-search"></i>
+                       </div>
+                     </li>
+                 
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+         <div class="hero-content">
+            <h1>Ekstrakurikuler</h1>
+            <p>Kembangkan bakat dan potensi melalui berbagai kegiatan pilihan di luar kelas.</p>
+         </div>
+      </section>
+
+      <!-- Deskripsi Singkat -->
+      <section class="description">
+         Sekolah kami menyediakan berbagai pilihan kegiatan ekstrakurikuler untuk menunjang minat, bakat, dan karakter siswa.
+      </section>
+
+      <div class="filter-buttons">
+         <button class="btn-filter active" data-filter="all">Semua</button>
+         <button class="btn-filter" data-filter="akademik">Akademik</button>
+         <button class="btn-filter" data-filter="olahraga">Olahraga</button>
+         <button class="btn-filter" data-filter="seni">Seni & Kreativitas</button>
+         <button class="btn-filter" data-filter="organisasi">Organisasi</button>
+       </div>
+
+      <!-- Daftar Ekskul -->
+      <section class="ekskul-container" id="daftar-ekskul">
+         <div class="ekskul-card akademik">
+               <img src="img/ekstra (7).png" alt="Coding Club">
+               <h3>Coding Club</h3>
+               <p>Belajar pemrograman dasar hingga lanjutan bersama teman-teman sehobi.</p>
+            </div>
+          <div class="ekskul-card seni">
+               <img src="img/ekstra (8).png" alt="Seni Rupa">
+               <h3>Seni Rupa</h3>
+               <p>Menuangkan kreativitas lewat lukisan, ilustrasi, dan desain visual.</p>
+            </div>
+          <div class="ekskul-card olahraga">
+               <img src="img/ekstra (1).png" alt="Futsal">
+               <h3>Futsal</h3>
+               <p>Olahraga seru yang penuh semangat dan kekompakan tim!</p>
+            </div>
+          <div class="ekskul-card organisasi">
+               <img src="img/ekstra (2).png" alt="Public Speaking">
+               <h3>Public Speaking</h3>
+               <p>Belajar tampil percaya diri, tegas, dan inspiratif di hadapan audiens.</p>
+          </div>
+          <div class="ekskul-card akademik">
+               <img src="img/ekstra (3).png" alt="Japanese Club">
+               <h3>Japanese Club</h3>
+               <p>Pelajari bahasa dan budaya Jepang lewat anime, kaligrafi, dan games!</p>
+            </div>
+          <div class="ekskul-card organisasi">
+               <img src="img/ekstra (4).png" alt="Green Community">
+               <h3>Green Community</h3>
+               <p>Kegiatan cinta bumi seperti menanam pohon dan daur ulang kreatif.</p>
+            </div>
+          <div class="ekskul-card seni">
+               <img src="img/ekstra (5).png" alt="Teater">
+               <h3>Teater</h3>
+               <p>Belajar akting, ekspresi, dan kerja tim melalui pertunjukan kreatif.</p>
+            </div>
+          <div class="ekskul-card akademik">
+               <img src="img/ekstra (6).png" alt="English Club">
+               <h3>English Club</h3>
+               <p>Latihan speaking, listening, dan debat seru berbahasa Inggris.</p>
+            </div>
+            <div class="ekskul-card olahraga">
+               <img src="img/ekstraa (1).png" alt="Football">
+               <h3>Football</h3>
+               <p>Latihan strategi, kecepatan, dan kekompakan tim di lapangan hijau.</p>
+            </div>
+            <div class="ekskul-card seni">
+               <img src="img/ekstraa (2).png" alt="Seni Musik">
+               <h3>Seni Musik</h3>
+               <p>Ekspresikan diri lewat alat musik, vokal, dan kolaborasi musikal.</p>
+            </div>
+            <div class="ekskul-card akademik">
+               <img src="img/ekstraa (3).png" alt="Mandarin Club">
+               <h3>Mandarin Club</h3>
+               <p>Seru-seruan belajar bahasa dan budaya Tionghoa lewat games dan percakapan.</p>
+            </div>
+            <div class="ekskul-card olahraga">
+               <img src="img/ekstraa (4).png" alt="Basket Ball">
+               <h3>Basket Ball</h3>
+               <p>Tingkatkan skill dribble, shooting, dan kerja sama dalam permainan cepat.</p>
+            </div>
+            <div class="ekskul-card olahraga">
+               <img src="img/ekstraa (5).png" alt="Badminton">
+               <h3>Badminton</h3>
+               <p>Seru-seruan main bulu tangkis sambil latih refleks dan stamina.</p>
+            </div>
+            <div class="ekskul-card seni">
+               <img src="img/ekstraa (6).png" alt="Tari Tradisional">
+               <h3>Tari Tradisional</h3>
+               <p>Pelajari gerak indah penuh makna dari budaya Indonesia yang kaya.</p>
+            </div>
+            <div class="ekskul-card organisasi">
+               <img src="img/ekstraa (7).png" alt="Palang Merah Remaja">
+               <h3>Palang Merah Remaja</h3>
+               <p>Kegiatan sosial seru sambil belajar pertolongan pertama dan peduli sesama.</p>
+            </div>
+            <div class="ekskul-card organisasi">
+               <img src="img/ekstraa (8).png" alt="Scout">
+               <h3>Scout</h3>
+               <p>Serunya menjelajah, belajar mandiri, dan kerja tim dalam kegiatan penuh tantangan.</p>
+            </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+         <h2>Temukan Ekstrakurikuler yang Kamu Suka!</h2>
+         <p>Jadilah bagian dari komunitas aktif dan inspiratif di luar kelas.</p>
+         <a href="#daftar-ekskul">Gabung Sekarang</a>
+      </section>
+
+      <!--=============== footer ===============-->
+      <footer class="footer">
+         <div class="container7">
+             <div class="footer-content">
+                 <div class="footer-box">
+                     <h3>Informasi</h3>
+                     <ul>
+                        <li>Jalan Raya Kuta No. 1 Badung</li>
+                        <li>80361 BALI - INDONESIA</li>
+                        <li>+62 361 - 752554, 752776</li>
+                        <li>info@Visionaryschool.com</li>
+                     </ul>
+                 </div>
+                 <div class="footer-box">
+                     <h3>Halaman Utama</h3>
+                     <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="visi.html"">Profil</a></li>
+                        <li><a href="ekstra.html">Program</a></li>
+                        <li><a href="pplg.html">Program Keahlian</a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-box">
+                  <h3>Tautan Cepat</h3>
+                  <ul>
+                    <li><a href="#">Daftar Siswa</a></li>
+                    <li><a href="#">Prestasi</a></li>
+                    <li><a href="#">Galeri</a></li>
+                    <li><a href="#">Kontak Kami</a></li>
+                  </ul>
+                </div>
+                 <div class="footer-box">
+                  <h3>Social Media</h3>
+                     <ul>
+                        <div class="social-icons">
+                           <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                           <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                           <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                           <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                         </div>
+                     </ul>
+                 </div>
+             </div>
+             <div class="footer-bottom">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.6593517914293!2d115.17532427417773!3d-8.723860491325777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246c36e20fd5b%3A0xd9038f91dd8aa0fc!2sWihara%20Dharmayana!5e0!3m2!1sid!2sid!4v1744252145798!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             <div class="footer-bottom">
+                 <p>Copyright &copy; 2024 <strong>Visionary School</strong>. All rights reserved. Present by <strong>MeiYan</strong></p>
+             </div>
+         </div>
+      </footer>
+
+      <!--=============== sticky icon wa ===============-->
+      <div class="wa-help">
+         <div class="wa-text">
+           <p>Butuh Bantuan?<br><strong>Hubungi Kami</strong></p>
+         </div>
+         <a href="https://wa.me/6281234567890" target="_blank" class="wa-icon">
+           <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+         </a>
+      </div>
+
+   <script src="jquery.fancybox.min.js"></script>
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   <script src="script.js"></script>
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".btn-filter");
+        const ekskulCards = document.querySelectorAll(".ekskul-card");
+    
+        // Tambahkan kategori ke tiap card (manual via data-filter)
+        const kategoriMap = {
+          "Coding Club": "akademik",
+          "Seni Rupa": "seni",
+          "Palang Merah Remaja": "organisasi",
+          "Seni Musik": "seni",
+          "Futsal": "olahraga",
+          "Public Speaking": "organisasi",
+          "Japanese Club": "akademik",
+          "Tari Tradisional": "seni",
+          "Green Community": "organisasi",
+          "Scout": "organisasi",
+          "Teater": "seni",
+          "English Club": "akademik",
+          "Mandarin Club": "akademik",
+          "Football": "olahraga",
+          "Basket Ball": "olahraga",
+          "Badminton": "olahraga",
+        };
+    
+        ekskulCards.forEach(card => {
+          const title = card.querySelector("h3").textContent.trim();
+          const kategori = kategoriMap[title];
+          if (kategori) {
+            card.setAttribute("data-kategori", kategori);
+          }
+        });
+    
+        filterButtons.forEach(button => {
+          button.addEventListener("click", () => {
+            // Hapus semua yang aktif
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+    
+            const filterValue = button.getAttribute("data-filter");
+    
+            ekskulCards.forEach(card => {
+              const cardKategori = card.getAttribute("data-kategori");
+    
+              if (filterValue === "all" || cardKategori === filterValue) {
+                card.style.display = "block";
+              } else {
+                card.style.display = "none";
+              }
+            });
+          });
+        });
+      });
+    </script>
+    
+  </body>
+</html>
